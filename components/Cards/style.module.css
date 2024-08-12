@@ -1,0 +1,15 @@
+.main{
+    width:100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+    align-items: center;
+}
+@media (max-width: 1400px){
+    .main{
+        flex-wrap: wrap;
+        gap:1rem;
+        padding: 2rem;
+    }
+}

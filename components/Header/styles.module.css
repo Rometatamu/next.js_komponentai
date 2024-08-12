@@ -1,0 +1,19 @@
+.main{
+    height: 20vh;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.main button{
+    width: 100px;
+    height: 50px;
+    color:black;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
